@@ -1,4 +1,7 @@
-
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
 
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////  Header med profilbild och titel //// //////////////////
@@ -11,8 +14,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(148,187,233);
-    background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(76,145,227,1) 100%);
     padding: 0%;
     padding-top: 2%;
 
@@ -47,11 +48,6 @@ main {
     justify-content: center;
     row-gap: 10%;
     min-height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgb(212, 212, 212) 0%, rgba(148,187,233,1) 100%);
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
                 
@@ -138,17 +134,7 @@ h2{
         }
     }
 }
-
-main:hover {
-    
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
-
-}
-
 #githubDiv{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -167,6 +153,7 @@ main:hover {
     border: solid 1px black;
     border-radius: 20px;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 
@@ -181,24 +168,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(242,109,167);
-    background: linear-gradient(0deg, rgba(242,109,167,1) 0%, rgba(238,174,202,1) 100%);
+    //background: rgb(242,109,167);
+    //background: linear-gradient(0deg, rgba(242,109,167,1) 0%, rgba(238,174,202,1) 100%);
     font-size: 0.8rem;
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-
-
-    .kontaktuppgifter{
-        -moz-transition: all 1s ease-in;
-        -o-transition: all 1s ease-in;
-        transition: all 1s ease-in;
-    }
-}
-
-footer:hover {
-    
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg,   rgb(212, 212, 212) 0%, rgba(148,187,233,1) 100%);
-
 }
