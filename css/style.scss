@@ -1,0 +1,11 @@
+$rubrik: #fff9f9;
+
+@import "normalize";
+
+@import "base";
+
+@media screen and (min-width: 1024px){
+
+    @import "desktop";
+    
+}

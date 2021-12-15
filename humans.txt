@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> Gamer Shabandari <role> Creator & Designer
+
+# THANKS
+
+    Medieinstitutet
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
