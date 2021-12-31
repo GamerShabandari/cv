@@ -46,6 +46,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     row-gap: 10%;
     min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
@@ -84,16 +85,15 @@ h2{
 /// Arbetsprover som ska bli en rullande carousel med hjälp av java längre fram /////////
 ////////////////////////////////////////////////////////////////////////////////////////
 
-
-
 .arbetsprover {
-
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:center;
     height: 100%;
     width: 50%;
     text-align: center;
+    gap: 50px;
 
     .arbetsprov1
     {
@@ -132,6 +132,13 @@ h2{
         &:hover{
             opacity: 1;
         }
+    }
+
+    .arbetsprovContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 #githubDiv{
