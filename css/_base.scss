@@ -1,4 +1,6 @@
-
+body{
+    background-color:rgba(139, 212, 214, 0.849);
+}
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////  Header med profilbild och titel //// //////////////////
 /////////////////////////////////////////////////////////////////////////////
@@ -11,8 +13,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(148,187,233);
-    background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(76,145,227,1) 100%);
 
     h1{
         font-size: 5rem;
@@ -47,8 +47,6 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     
@@ -123,7 +121,5 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(242,109,167);
-    background: linear-gradient(0deg, rgba(242,109,167,1) 0%, rgba(238,174,202,1) 100%);
 
 }
