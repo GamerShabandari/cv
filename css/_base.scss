@@ -1,5 +1,7 @@
 body{
     background-color:rgba(139, 212, 214, 0.849);
+    width: 100vw;
+    height: 100vh;
 }
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////  Header med profilbild och titel //// //////////////////
@@ -8,7 +10,7 @@ body{
 header {
 
     position: relative;
-    height: 40vh;
+    height: 40%;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -38,15 +40,15 @@ header {
 
 main {
 
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    // justify-content: center;
+    // align-items: center;
+    min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     
@@ -56,7 +58,7 @@ main {
 h2{
     color:$rubrik;
     font-size: 1.3rem;
-    text-shadow: 2px 2px 5px grey;
+    // text-shadow: 2px 2px 5px grey;
     letter-spacing: 5px;
 }
 
@@ -64,6 +66,7 @@ h2{
     
     text-align: center;
     line-height: 1.8;
+    font-size: 0.8rem;
 
     ul{ 
         list-style-position: inside;
@@ -84,7 +87,6 @@ h2{
 
 main {
 
-
     .arbetsprover {
 
         display: flex;
@@ -93,6 +95,7 @@ main {
         flex-wrap: wrap;
         column-gap: 3%;
         text-align: center;
+        // padding-top: 15%;
 
         .arbetsprov1
         {
@@ -116,10 +119,9 @@ main {
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
-    height: 10vh;
+    height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
