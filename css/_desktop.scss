@@ -95,10 +95,12 @@ h2{
     width: 50%;
     text-align: center;
     gap: 50px;
+    
     padding-top: 0%;
 
     .arbetsprov1
     {
+        width: 100%;
         border-radius: 10%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
@@ -112,6 +114,7 @@ h2{
 
     .arbetsprov2
     {
+        width: 100%;
         border-radius: 10%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
@@ -125,6 +128,7 @@ h2{
 
     .arbetsprov3
     {
+        width: 100%;
         border-radius: 10%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
