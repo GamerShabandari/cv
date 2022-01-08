@@ -15,22 +15,22 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    h1{
-        font-size: 4rem;
-        width: auto;
-        text-align: center;
-        color: $rubrik;
-        font-family: 'Ubuntu', sans-serif;
-        position: absolute;
-        z-index: 999;
-        top: 45%;
-        }
-
-    .min-bild{
-            border-radius: 50%;
-            position: absolute;
+h1{
+    font-size: 3rem;
+    width: auto;
+    text-align: center;
+    color: $rubrik;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    z-index: 999;
+    top: 45%;
     }
+
+.min-bild{
+        border-radius: 50%;
+        position: absolute;
 }
 
 
@@ -86,43 +86,39 @@ h2{
 /// Arbetsprover som ska bli en rullande carousel med hjälp av java längre fram /////////
 ////////////////////////////////////////////////////////////////////////////////////////
 
-main {
+.arbetsprover {
 
-    .arbetsprover {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    text-align: center;
 
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
-        flex-wrap: wrap;
-        column-gap: 3%;
-        text-align: center;
+    // padding-top: 15%;
 
-        // padding-top: 15%;
-
-        .arbetsprov1
-        {
-            border-radius: 10%;
-            width: 70%;
-        }
-
-        .arbetsprov2
-        {
-            border-radius: 10%;
-            width: 70%;   
-        }
-
-        .arbetsprov3
-        {
-            border-radius: 10%;
-            width: 70%;   
-        }
+    .arbetsprov1
+    {
+        border-radius: 10%;
+        width: 70%;
     }
 
+    .arbetsprov2
+    {
+        border-radius: 10%;
+        width: 70%;   
+    }
+
+    .arbetsprov3
+    {
+        border-radius: 10%;
+        width: 70%;   
+    }
 }
 
-.arbetsprover {
-    padding-top: 10%;
-}
+// .arbetsprover {
+//     padding-top: 10%;
+// }
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////  Footer med länkar till sociala medier //// /////////
 /////////////////////////////////////////////////////////////////////////////
