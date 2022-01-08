@@ -61,6 +61,7 @@ h2{
     font-size: 1.3rem;
     text-shadow: 2px 2px 5px grey;
     letter-spacing: 5px;
+    margin: 0%;
 }
 
 .om-mig {
@@ -68,6 +69,18 @@ h2{
     width: 50%;
     text-align: center;
     line-height: 1.8;
+
+    article{
+        padding: 10px;
+    }
+
+    .skills {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
     ul{
 
@@ -94,7 +107,7 @@ h2{
     height: 100%;
     width: 50%;
     text-align: center;
-    gap: 100px;
+    gap: 150px;
     
 
     padding-top: 0%;
@@ -174,7 +187,7 @@ h2{
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
-    padding-top: 10%;
+    padding-top: 20px;
     height: 15%;
     display: flex;
     flex-direction: row;

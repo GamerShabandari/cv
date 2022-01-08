@@ -60,6 +60,7 @@ h2{
     font-size: 1rem;
     // text-shadow: 2px 2px 5px grey;
     letter-spacing: 5px;
+    margin: 0%;
 
 }
 
@@ -68,6 +69,21 @@ h2{
     text-align: center;
     line-height: 1.8;
     font-size: 0.8rem;
+
+    article{
+        padding: 5px;
+    }
+
+    .skills {
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 
     ul{ 
         list-style-position: inside;
@@ -94,6 +110,7 @@ h2{
     flex-wrap: wrap;
     column-gap: 3%;
     text-align: center;
+    gap: 30px;
 
     // padding-top: 15%;
 
@@ -124,6 +141,7 @@ h2{
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
+    padding-top: 10px;
     height: 10%;
     display: flex;
     flex-direction: column;
