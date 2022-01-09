@@ -1,8 +1,6 @@
 let githubDiv = document.getElementById("githubDiv");
 let konamiCode = document.getElementsByClassName("konamiCode");
 
-
-
 gsap.from(".min-bild", { y: -200, duration: 1, ease: "bounce"});
 gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "bounce"});
 
@@ -27,11 +25,6 @@ document.addEventListener("keyup", (evt) => {
 function checkHiddenCode(usersinput){
 
     if (usersinput === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba") {
-
-        alert("hej")
-
-        //console.log("ccheck");
-
 
         gsap.to(".konamiCode", { y: -1000, duration: 1.5, color: "white", scale: 4, ease: "circ"});
         gsap.to(".konamiCode", { rotation: 720, duration: 1.5, ease: "circ"});
