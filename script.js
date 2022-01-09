@@ -1,4 +1,6 @@
 let githubDiv = document.getElementById("githubDiv");
+let konamiCode = document.getElementsByClassName("konamiCode");
+
 
 
 gsap.from(".min-bild", { y: -200, duration: 1, ease: "bounce"});
@@ -11,6 +13,34 @@ gsap.from(".javascript", { y: -10, duration: 1, ease: "power2.in", yoyo:true, re
 gsap.from(".html", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".css", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
 
+
+// Up, Up, Down, Down, Left, Right, Left, Right, B, A
+
+let konamiCodeCheck = "";
+
+document.addEventListener("keyup", (evt) => {
+    konamiCodeCheck += evt.key;
+
+    checkHiddenCode(konamiCodeCheck);
+});
+
+function checkHiddenCode(usersinput){
+
+    if (usersinput === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba") {
+
+        alert("hej")
+
+        //console.log("ccheck");
+
+
+        gsap.to(".konamiCode", { y: -1000, duration: 1.5, color: "white", scale: 4, ease: "circ"});
+        gsap.to(".konamiCode", { rotation: 720, duration: 1.5, ease: "circ"});
+        gsap.to(".konamiCode", { y: -10000, duration: 1, delay: 5 ,ease: "power2.in"});
+
+        konamiCodeCheck = "";
+
+    };
+};
 
 // fetch("https://api.github.com/users/gamershabandari/repos")
 // .then(response => response.json())
