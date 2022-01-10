@@ -2,8 +2,8 @@ let githubDiv = document.getElementById("githubDiv");
 let konamiCode = document.getElementsByClassName("konamiCode");
 let secret = document.getElementsByClassName("secret");
 
-gsap.from(".min-bild", { y: -500, duration: 1, ease: "power2.in"});
-gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "bounce"});
+gsap.from(".min-bild", { y: -200, duration: 1.3, ease: "elastic"});
+gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "elastic"});
 
 gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
 gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
