@@ -14,7 +14,7 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 40%;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +38,8 @@ h1{
 .min-bild{
         border-radius: 50%;
         position: absolute;
+        width: 300px;
+        bottom: 10px;
 }
 
 
