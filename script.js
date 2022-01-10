@@ -1,15 +1,21 @@
 let githubDiv = document.getElementById("githubDiv");
 let konamiCode = document.getElementsByClassName("konamiCode");
+let secret = document.getElementsByClassName("secret");
 
-gsap.from(".min-bild", { y: -200, duration: 1, ease: "bounce"});
+gsap.from(".min-bild", { y: -500, duration: 1, ease: "power2.in"});
 gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "bounce"});
 
-gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, ease: "bounce"});
-gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.5, ease: "bounce"});
+gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
+gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
 
 gsap.from(".javascript", { y: -10, duration: 1, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".html", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".css", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
+
+
+gsap.from(".email", { y: -10, duration: 1.3, delay: 2, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".linkedin", { y: -10, duration: 1.3, delay: 2.1, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoyo:true, repeat:-1 });
 
 
 // Up, Up, Down, Down, Left, Right, Left, Right, B, A
@@ -26,9 +32,7 @@ function checkHiddenCode(usersinput){
 
     if (usersinput === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba") {
 
-        gsap.to(".konamiCode", { y: -1000, duration: 1.5, color: "white", scale: 4, ease: "circ"});
-        gsap.to(".konamiCode", { rotation: 720, duration: 1.5, ease: "circ"});
-        gsap.to(".konamiCode", { y: -10000, duration: 1, delay: 5 ,ease: "power2.in"});
+        gsap.to(".secret", { y: -1500, duration: 1.5, opacity: 1, ease: "circ", yoyo:true, repeat:3});
 
         konamiCodeCheck = "";
 

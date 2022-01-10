@@ -8,7 +8,7 @@ body{
 /////////////////////////////////////////////////////////////////////////////
 
 header {
-
+    background-color: rgba(0, 128, 128, 0.4);
     position: relative;
     height: 40%;
     padding: 5%;
@@ -24,7 +24,7 @@ h1{
     color: $rubrik;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
-    z-index: 999;
+    z-index: 98;
     top: 45%;
     }
 
@@ -46,8 +46,6 @@ main {
     padding-bottom: 5%;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
@@ -58,7 +56,6 @@ main {
 h2{
     color:$rubrik;
     font-size: 1rem;
-    // text-shadow: 2px 2px 5px grey;
     letter-spacing: 5px;
     margin: 0%;
 
@@ -112,8 +109,6 @@ h2{
     text-align: center;
     gap: 30px;
 
-    // padding-top: 15%;
-
     .arbetsprov1
     {
         border-radius: 10%;
@@ -133,16 +128,14 @@ h2{
     }
 }
 
-// .arbetsprover {
-//     padding-top: 10%;
-// }
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////  Footer med länkar till sociala medier //// /////////
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
+    background-color: rgba(0, 128, 128, 0.4);
     padding-top: 25px;
-    height: 10%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +143,32 @@ footer {
 }
 
 .konamiCode {
-    color:rgba(139, 211, 214, 0.897);
+    color:rgba(100, 156, 156, 0.4);
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 0.01rem;
+}
+
+.email {
+    margin: 10px;
+}
+
+.linkedin {
+    margin: 10px;
+}
+
+.github{
+    margin: 10px;
+}
+
+.secretContainer{
+    position: fixed;
+    bottom: -1000px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.secret{
+    position: relative;
+    z-index: 99;
 }

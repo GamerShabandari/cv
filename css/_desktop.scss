@@ -17,6 +17,7 @@ header {
     align-items: center;
     padding: 0%;
     padding-top: 2%;
+    background-color: rgba(0, 128, 128, 0.4);
 
 }
 
@@ -26,7 +27,7 @@ h1{
     font-size: 5rem;
     color:$rubrik;
     font-family: 'Ubuntu', sans-serif;
-    z-index: 999;
+    z-index: 98;
     top: 30%;
 }
 
@@ -59,7 +60,6 @@ h2{
 
     color:$rubrik;
     font-size: 1.3rem;
-    //text-shadow: 2px 2px 5px grey;
     letter-spacing: 5px;
     margin: 0%;
 }
@@ -156,14 +156,6 @@ h2{
 
 }
 
-
-
-// .arbetsprovContainer{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
 // #githubDiv{
 //     display: flex;
 //     justify-content: center;
@@ -192,20 +184,60 @@ h2{
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
+    background-color: rgba(0, 128, 128, 0.4);
     padding-top: 20px;
+    width: 100%;
     height: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     font-size: 0.8rem;
 }
 
 .konamiCode {
-    color:rgba(139, 211, 214, 0.897);
+    color:rgba(100, 156, 156, 0.4);
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 0.01rem;
 }
 .konamiCode:hover{
     color: blanchedalmond;
+}
+
+.email {
+    margin: 10px;
+
+    &:hover{
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+    }
+}
+
+.linkedin {
+    margin: 10px;
+    &:hover{
+        border: 1px solid whitesmoke;
+        border-radius: 5%;
+    }
+}
+
+.github{
+    margin: 10px;
+    &:hover{
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+    }
+}
+
+.secretContainer{
+    position: fixed;
+    bottom: -1000px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.secret{
+    position: relative;
+    z-index: 99;
 }
