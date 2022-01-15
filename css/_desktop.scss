@@ -121,7 +121,7 @@ h2{
 
     .arbetsprov1
     {   
-        width: 300px;
+        width: 200px;
         border-radius: 5%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
@@ -135,7 +135,7 @@ h2{
 
     .arbetsprov2
     {
-        width: 300px;
+        width: 200px;
         border-radius: 5%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
@@ -149,7 +149,21 @@ h2{
 
     .arbetsprov3
     {
-        width: 300px;
+        width: 200px;
+        border-radius: 5%;
+        opacity: 0.5;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+
+    .arbetsprov4
+    {
+        width: 200px;
         border-radius: 5%;
         opacity: 0.5;
         -moz-transition: all 0.3s ease-in;
