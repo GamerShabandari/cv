@@ -1,5 +1,7 @@
 body{
-    background-color: rgba(70, 131, 180, 0.6);
+    background-color: black;
+    color: whitesmoke;
+    letter-spacing: 2px;
     width: 100vw;
     height: 100vh;
 }
@@ -20,7 +22,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0%;
-    background-color: steelblue;
+    background-color: black;
 
 }
 
@@ -63,8 +65,7 @@ main {
 }
 
 h2{
-
-    color:$rubrik;
+    color: palevioletred;
     font-size: 1.3rem;
     letter-spacing: 5px;
     margin: 0%;
@@ -123,7 +124,7 @@ h2{
     {   
         width: 200px;
         border-radius: 10px;
-        border: 1px solid steelblue;
+        border: 1px solid black;
         opacity: 0.7;
         -moz-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
@@ -131,7 +132,7 @@ h2{
 
         &:hover{
             opacity: 1;
-            border: 2px solid whitesmoke;
+            border: 2px solid palevioletred;
         }
     }
 
@@ -139,7 +140,7 @@ h2{
     {
         width: 200px;
         border-radius: 10px;
-        border: 1px solid steelblue;
+        border: 1px solid black;
         opacity: 0.7;
         -moz-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
@@ -147,7 +148,7 @@ h2{
 
         &:hover{
             opacity: 1;
-            border: 2px solid whitesmoke;
+            border: 2px solid palevioletred;
         }
     }
 
@@ -155,7 +156,7 @@ h2{
     {
         width: 200px;
         border-radius: 10px;
-        border: 1px solid steelblue;
+        border: 1px solid black;
         opacity: 0.7;
         -moz-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
@@ -163,7 +164,7 @@ h2{
 
         &:hover{
             opacity: 1;
-            border: 2px solid whitesmoke;
+            border: 2px solid palevioletred;
         }
     }
 
@@ -171,7 +172,7 @@ h2{
     {
         width: 200px;
         border-radius: 10px;
-        border: 1px solid steelblue;
+        border: 1px solid black;
         opacity: 0.7;
         -moz-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
@@ -179,7 +180,7 @@ h2{
 
         &:hover{
             opacity: 1;
-            border: 2px solid whitesmoke;
+            border: 2px solid palevioletred;
         }
     }
 
@@ -191,8 +192,8 @@ h2{
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
-    background-color: rgba(0, 128, 128, 0.4);
-    background-color: steelblue;
+    
+    background-color: black;
     padding-top: 20px;
     width: 100%;
     height: 15%;
@@ -204,36 +205,36 @@ footer {
 }
 
 .konamiCode {
-    color:rgba(100, 156, 156, 0.4);
+    color:black;
     font-weight: bolder;
     font-size: 0.5rem;
 }
 .konamiCode:hover{
-    color: blanchedalmond;
+    color: palevioletred;
 }
 
 .email {
     margin: 10px;
 
     &:hover{
-        border: 1px solid whitesmoke;
-        border-radius: 50%;
+        border: 1px solid palevioletred;
+        border-radius: 50px;
     }
 }
 
 .linkedin {
     margin: 10px;
     &:hover{
-        border: 1px solid whitesmoke;
-        border-radius: 5%;
+        border: 1px solid palevioletred;
+        border-radius: 10px;
     }
 }
 
 .github{
     margin: 10px;
     &:hover{
-        border: 1px solid whitesmoke;
-        border-radius: 50%;
+        border: 1px solid palevioletred;
+        border-radius: 50px;
     }
 }
 

@@ -1,5 +1,7 @@
 body{
-    background-color: rgba(70, 131, 180, 0.6);
+    background-color: black;
+    color: whitesmoke;
+    letter-spacing: 2px;
     width: 100vw;
     height: 100vh;
 }
@@ -12,7 +14,7 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: steelblue;
+    background-color: black;
     position: relative;
     height: 300px;
     display: flex;
@@ -61,7 +63,7 @@ main {
 }
 
 h2{
-    color:$rubrik;
+    color:palevioletred;
     font-size: 1rem;
     letter-spacing: 5px;
     margin: 0%;
@@ -146,7 +148,7 @@ h2{
 /////////////////////////////////////////////////////////////////////////////
 
 footer {
-    background-color:steelblue;
+    background-color:black;
     padding-top: 25px;
     height: 15%;
     width: 100vw;
@@ -157,7 +159,7 @@ footer {
 }
 
 .konamiCode {
-    color:rgba(100, 156, 156, 0.4);
+    color:black;
     font-weight: bolder;
     font-size: 0.5rem;
 }
