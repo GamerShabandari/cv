@@ -2,7 +2,7 @@ let githubDiv = document.getElementById("githubDiv");
 let konamiCode = document.getElementsByClassName("konamiCode");
 let secret = document.getElementsByClassName("secret");
 
-gsap.from(".min-bild", { y: -200, duration: 1.3, ease: "elastic"});
+gsap.from(".min-bild", { y: -500, duration: 1.3, delay: 0.4, ease: "elastic"});
 gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "elastic"});
 
 gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
@@ -14,9 +14,9 @@ gsap.from(".css", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:tru
 
 gsap.from(".angular", { y: -10, duration: 1, delay: 0.4, ease: "power2.in", yoyo:true, repeat:-1 });
 
-gsap.from(".react", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".typescript", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".sass", { y: -10, duration: 1, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".react", { y: -10, duration: 1, delay: 0.5, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".typescript", { y: -10, duration: 1, delay: 0.6, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".sass", { y: -10, duration: 1, delay: 0.7, ease: "power2.in", yoyo:true, repeat:-1 });
 
 
 gsap.from(".email", { y: -10, duration: 1.3, delay: 2, ease: "power2.in", yoyo:true, repeat:-1 });
