@@ -12,6 +12,12 @@ gsap.from(".javascript", { y: -10, duration: 1, ease: "power2.in", yoyo:true, re
 gsap.from(".html", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".css", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
 
+gsap.from(".angular", { y: -10, duration: 1, delay: 0.4, ease: "power2.in", yoyo:true, repeat:-1 });
+
+gsap.from(".react", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".typescript", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".sass", { y: -10, duration: 1, ease: "power2.in", yoyo:true, repeat:-1 });
+
 
 gsap.from(".email", { y: -10, duration: 1.3, delay: 2, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".linkedin", { y: -10, duration: 1.3, delay: 2.1, ease: "power2.in", yoyo:true, repeat:-1 });

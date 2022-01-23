@@ -87,11 +87,12 @@ h2{
         font-size: 1rem;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        
     }
 
     ul{ 
@@ -102,6 +103,9 @@ h2{
             list-style: none;
             text-align: center;
             line-height: 2.5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
         }
     }

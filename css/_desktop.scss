@@ -90,6 +90,7 @@ h2{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     ul{
@@ -135,6 +136,7 @@ h2{
         &:hover{
             opacity: 1;
             border: 2px solid palevioletred;
+            width: 250px;
         }
     }
 
@@ -151,6 +153,7 @@ h2{
         &:hover{
             opacity: 1;
             border: 2px solid palevioletred;
+            width: 250px;
         }
     }
 
@@ -167,6 +170,7 @@ h2{
         &:hover{
             opacity: 1;
             border: 2px solid palevioletred;
+            width: 250px;
         }
     }
 
@@ -183,6 +187,7 @@ h2{
         &:hover{
             opacity: 1;
             border: 2px solid palevioletred;
+            width: 250px;
         }
     }
 
