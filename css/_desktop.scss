@@ -135,15 +135,16 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        opacity: 0.7;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        filter: blur(3px);
+        
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover{
-            opacity: 1;
-            border: 2px solid palevioletred;
+            
             width: 250px;
+            filter: blur(0px);
         }
     }
 
@@ -152,15 +153,17 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        opacity: 0.7;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        filter: blur(3px);
+        
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover{
-            opacity: 1;
-            border: 2px solid palevioletred;
+           
             width: 250px;
+            filter: blur(0px);
+            
         }
     }
 
@@ -169,15 +172,14 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        opacity: 0.7;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        filter: blur(3px);
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover{
-            opacity: 1;
-            border: 2px solid palevioletred;
             width: 250px;
+            filter: blur(0px);
         }
     }
 
@@ -186,15 +188,14 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        opacity: 0.7;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        filter: blur(3px);
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover{
-            opacity: 1;
-            border: 2px solid palevioletred;
             width: 250px;
+            filter: blur(0px);
         }
     }
 
