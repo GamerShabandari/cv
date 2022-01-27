@@ -97,6 +97,14 @@ h2{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                transform: scale(1.4);
+                scale: 1.4;
+            }
         }
     }
 
@@ -143,7 +151,7 @@ h2{
 
         &:hover{
             
-            width: 250px;
+            transform: scale(1.4);
             filter: blur(0px);
         }
     }
@@ -161,7 +169,7 @@ h2{
 
         &:hover{
            
-            width: 250px;
+            transform: scale(1.4);
             filter: blur(0px);
             
         }
@@ -178,7 +186,7 @@ h2{
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            width: 250px;
+            transform: scale(1.4);
             filter: blur(0px);
         }
     }
@@ -194,7 +202,7 @@ h2{
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            width: 250px;
+            transform: scale(1.4);
             filter: blur(0px);
         }
     }
@@ -232,10 +240,14 @@ footer {
     margin: 10px;
     border: 2px solid palevioletred;
     border-radius: 50px;
+    transition: scale;
+    transition-duration: 0.3s;
 
     &:hover{
         border: 2px solid whitesmoke;
         border-radius: 50px;
+        transform: scale(1.4);
+        scale: 1.4;
     }
 }
 
@@ -243,9 +255,14 @@ footer {
     margin: 10px;
     border: 2px solid palevioletred;
     border-radius: 10px;
+    transition: scale;
+    transition-duration: 0.3s;
+
     &:hover{
         border: 2px solid whitesmoke;
         border-radius: 10px;
+        transform: scale(1.4);
+        scale: 1.4;
     }
 }
 
@@ -253,9 +270,14 @@ footer {
     margin: 10px;
     border: 2px solid palevioletred;
     border-radius: 50px;
+    transition: scale;
+    transition-duration: 0.3s;
+
     &:hover{
         border: 2px solid whitesmoke;
         border-radius: 50px;
+        transform: scale(1.4);
+        scale: 1.4;
     }
 }
 
