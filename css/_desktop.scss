@@ -97,14 +97,6 @@ h2{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            -moz-transition: all 0.2s ease-in-out;
-            -o-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-
-            &:hover{
-                transform: scale(1.4);
-                scale: 1.4;
-            }
         }
     }
 

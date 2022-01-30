@@ -2,26 +2,46 @@ let githubDiv = document.getElementById("githubDiv");
 let konamiCode = document.getElementsByClassName("konamiCode");
 let secret = document.getElementsByClassName("secret");
 
-gsap.from(".min-bild", { y: -500, duration: 1.3, delay: 0.4, ease: "elastic"});
-gsap.from(".h1", { y: -1000, duration: 1.4, delay: 1, ease: "elastic"});
+////////////////////////////////////////////////////////////////////////////////////////////
 
-gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
-gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.5, ease: "power2.in"});
+gsap.from(".min-bild", { duration: 1.3, delay: 0.6, opacity: 0, scale: 0, ease: "expo"});
+gsap.from(".h1", {  duration: 1.4, delay: 1.2, opacity: 0, scale: 0, ease: "expo"});
+gsap.from(".footer", { duration: 1.3, delay: 1, opacity:0, ease: "expo" });
 
-gsap.from(".javascript", { y: -10, duration: 1, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".html", { y: -10, duration: 1, delay: 0.2, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".css", { y: -10, duration: 1, delay: 0.3, ease: "power2.in", yoyo:true, repeat:-1 });
+////////////////////////////////////////////////////////////////////////////////////////////
 
-gsap.from(".angular", { y: -10, duration: 1, delay: 0.4, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, opacity: 0,ease: "expo"});
 
-gsap.from(".react", { y: -10, duration: 1, delay: 0.5, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".typescript", { y: -10, duration: 1, delay: 0.6, ease: "power2.in", yoyo:true, repeat:-1 });
-gsap.from(".sass", { y: -10, duration: 1, delay: 0.7, ease: "power2.in", yoyo:true, repeat:-1 });
+gsap.from(".javascript", { opacity:0, delay: 3, duration:1.3, ease: "sine" });
+gsap.from(".html", { opacity:0, delay: 3.2, duration:1.3, ease: "sine" });
+gsap.from(".css", { opacity:0, delay: 3.4, duration:1.3, ease: "sine" });
+gsap.from(".angular", { opacity:0, delay: 3.6, duration:1.3, ease: "sine" });
+gsap.from(".react", { opacity:0, delay: 3.8, duration:1.3, ease: "sine"  });
+gsap.from(".typescript", { opacity:0, delay: 4, duration:1.3, ease: "sine" });
+gsap.from(".sass", { opacity:0, delay: 4.2, duration:1.3, ease: "sine" });
+gsap.from(".gsap", { opacity:0, delay: 4.4, duration:1.3, ease: "sine" });
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+gsap.from(".textToFadeIn", { opacity:0, delay: 4.4, duration:1.3, stagger: 0.4,ease: "sine" });
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.7,ease: "expo"});
+
+gsap.from(".arbetsprov1", { duration: 1, delay: 2, opacity: 0, ease: "expo"});
+gsap.from(".arbetsprov2", { duration: 1, delay: 2.2, opacity: 0,ease: "expo"});
+gsap.from(".arbetsprov3", { duration: 1, delay: 2.4, opacity: 0,ease: "expo"});
+gsap.from(".arbetsprov4", { duration: 1, delay: 2.8, opacity: 0,ease: "expo"});
+
+////////////////////////////////////////////////////////////////////////////////////////////
 
 
 gsap.from(".email", { y: -10, duration: 1.3, delay: 2, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".linkedin", { y: -10, duration: 1.3, delay: 2.1, ease: "power2.in", yoyo:true, repeat:-1 });
 gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoyo:true, repeat:-1 });
+
+////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // Up, Up, Down, Down, Left, Right, Left, Right, B, A
