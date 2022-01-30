@@ -126,25 +126,48 @@ h2{
     width: 50%;
     text-align: center;
     gap: 50px;
-    
-
     padding-top: 0%;
+
+    .arbetsprov1Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .arbetsprov2Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .arbetsprov3Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .arbetsprov4Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
 
     .arbetsprov1
     {   
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        filter: blur(3px);
         
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            
             transform: scale(1.4);
-            filter: blur(0px);
         }
     }
 
@@ -153,17 +176,13 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        filter: blur(3px);
-        
+     
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
-        &:hover{
-           
-            transform: scale(1.4);
-            filter: blur(0px);
-            
+        &:hover{ 
+            transform: scale(1.4); 
         }
     }
 
@@ -172,14 +191,13 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        filter: blur(3px);
+    
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
             transform: scale(1.4);
-            filter: blur(0px);
         }
     }
 
@@ -188,14 +206,12 @@ h2{
         width: 200px;
         border-radius: 10px;
         border: 1px solid black;
-        filter: blur(3px);
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
             transform: scale(1.4);
-            filter: blur(0px);
         }
     }
 
