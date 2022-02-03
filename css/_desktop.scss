@@ -26,6 +26,25 @@ header {
 
 }
 
+#languageBtn{
+    position: absolute;
+    background-color: palevioletred;
+    color: whitesmoke;
+    border: none;
+    left: 20px;
+    top: 20px;
+    z-index: 999;
+    border-radius: 15px;
+    transition: all;
+    transition-duration: 0.2s;
+
+    &:hover{
+        background-color: whitesmoke;
+        color: palevioletred;
+    }
+
+}
+
 h1{
     
     position: absolute;

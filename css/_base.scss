@@ -22,6 +22,18 @@ header {
     align-items: center;
 }
 
+#languageBtn{
+    position: absolute;
+    background-color: palevioletred;
+    color: whitesmoke;
+    border: none;
+    left: 20px;
+    top: 20px;
+    z-index: 999;
+    border-radius: 15px;
+
+}
+
 h1{
     font-size: 3.2rem;
     text-align: center;
@@ -132,10 +144,10 @@ h2{
         // background-color: #d87093;
 
         background: rgb(216,112,147);
-background: -moz-radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
-background: radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d87093",endColorstr="#000000",GradientType=1);
+        background: -moz-radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
+        background: radial-gradient(circle, rgba(216,112,147,1) 8%, rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d87093",endColorstr="#000000",GradientType=1);
 
         margin: 10px;
     }
