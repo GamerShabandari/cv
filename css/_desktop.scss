@@ -37,6 +37,10 @@ header {
     border-radius: 15px;
     transition: all;
     transition-duration: 0.2s;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    padding: 7px;
+    letter-spacing: 3px;
 
     &:hover{
         background-color: whitesmoke;
