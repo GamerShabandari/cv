@@ -14,7 +14,7 @@ let setLanguageToEnglish = false;
 gsap.from(".min-bild", { duration: 1.3, delay: 0.6, opacity: 0, scale: 0, ease: "expo" });
 gsap.from(".h1", { duration: 1.4, delay: 1.2, opacity: 0, scale: 0, ease: "expo" });
 gsap.from(".footer", { duration: 1.3, delay: 1, opacity: 0, ease: "expo" });
-gsap.from("#languageBtn", { duration: 1.3, delay: 0.2, scale:0, opacity: 0, ease: "expo" });
+gsap.from("#languageBtn", { duration: 1.3, delay: 0.2, scale: 0, opacity: 0, ease: "expo" });
 
 
 
@@ -59,32 +59,37 @@ gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoy
 let konamiCodeCheck = "";
 
 document.addEventListener("keyup", (evt) => {
-    konamiCodeCheck += evt.key;
+  konamiCodeCheck += evt.key;
 
-    checkHiddenCode(konamiCodeCheck);
+  checkHiddenCode(konamiCodeCheck);
 });
 
 function checkHiddenCode(usersinput) {
 
-    if (usersinput === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba") {
+  if (usersinput === "ArrowUpArrowUpArrowDownArrowDownArrowLeftArrowRightArrowLeftArrowRightba") {
 
-        gsap.to(".secret", { y: -1500, duration: 1.5, opacity: 1, ease: "circ", yoyo: true, repeat: 3 });
+    gsap.to(".secret", { y: -1500, duration: 1.5, opacity: 1, ease: "circ", yoyo: true, repeat: 3 });
 
-        konamiCodeCheck = "";
+    konamiCodeCheck = "";
 
-    };
+  };
 };
 
 languageBtn.addEventListener("click", function changeLanguage() {
 
 
-    setLanguageToEnglish = !setLanguageToEnglish;
+  setLanguageToEnglish = !setLanguageToEnglish;
 
-    if (setLanguageToEnglish == true) {
+  languageBtn.style.backgroundColor
+  languageBtn.style.backgroundColor
+
+  if (setLanguageToEnglish == true) {
+
+    languageBtn.style.backgroundColor = "whitesmoke"
+    languageBtn.style.color = "palevioletred"
 
 
-
-        kortOmMig.innerHTML = `<img src="img/me.png" alt="icon about me" width="60" aria-hidden="true">
+    kortOmMig.innerHTML = `<img src="img/me.png" alt="icon about me" width="60" aria-hidden="true">
 
         <h2>ABOUT ME</h2>
 
@@ -102,7 +107,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
         </p>
       </article>`
 
-        yrken.innerHTML = `
+    yrken.innerHTML = `
       
       <img src="img/jobs.png" alt="icon jobs" width="60" aria-hidden="true">
         <h2>WORK EXPERIENCE</h2>
@@ -117,7 +122,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
       
       `
 
-        akademi.innerHTML = `
+    akademi.innerHTML = `
 
     <img src="img/school.png" alt="academic background" width="60" aria-hidden="true">
         <h2>ACADEMIC BACKGROUND</h2>
@@ -131,12 +136,15 @@ languageBtn.addEventListener("click", function changeLanguage() {
         </div>
     `
 
-        arbetsproverRubrik.innerHTML = "PROJECTS"
+    arbetsproverRubrik.innerHTML = "PROJECTS"
 
 
-    } else {
+  } else {
 
-        kortOmMig.innerHTML = `<img src="img/me.png" alt="ikon om mig" width="60" aria-hidden="true">
+    languageBtn.style.backgroundColor = "palevioletred"
+    languageBtn.style.color = "whitesmoke"
+
+    kortOmMig.innerHTML = `<img src="img/me.png" alt="ikon om mig" width="60" aria-hidden="true">
 
         <h2>KORT OM MIG</h2>
 
@@ -156,7 +164,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
       </article>`
 
 
-        yrken.innerHTML = `
+    yrken.innerHTML = `
       
       <img src="img/jobs.png" alt="ikon yrken" width="60" aria-hidden="true">
         <h2>YRKEN</h2>
@@ -171,7 +179,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
       
       `
 
-        akademi.innerHTML = `
+    akademi.innerHTML = `
 
     <img src="img/school.png" alt="akademisk bakgrund" width="60" aria-hidden="true">
         <h2>AKADEMISK BAKGRUND</h2>
@@ -184,7 +192,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
           </ul>
         </div>
     `
-        arbetsproverRubrik.innerHTML = "ARBETSPROVER"
+    arbetsproverRubrik.innerHTML = "ARBETSPROVER"
 
-    }
+  }
 });
