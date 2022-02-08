@@ -4,6 +4,7 @@ body{
     letter-spacing: 2px;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -86,6 +87,7 @@ main {
     min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
+    overflow-x: hidden;
                 
 }
 
