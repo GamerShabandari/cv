@@ -181,6 +181,15 @@ h2{
         gap: 20px;
     }
 
+    .toolsUsed{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 30px;
+    }
+
     .arbetsprov1
     {
         border-radius: 10px;
