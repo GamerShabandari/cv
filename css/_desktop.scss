@@ -151,8 +151,8 @@ h2{
     height: 100%;
     width: 50%;
     text-align: center;
-    gap: 50px;
-    padding-top: 0%;
+    gap: 30px;
+    padding: 0;
 
     .decorationLine{
         width: 100%;
@@ -195,11 +195,11 @@ h2{
 
     .toolsUsed{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 20px;
-        width: 30px;
+        width: fit-content;
     }
 
     .arbetsprov1
