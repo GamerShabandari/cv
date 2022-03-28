@@ -85,6 +85,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: flex-start;
     row-gap: 15%;
     min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
