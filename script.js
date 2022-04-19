@@ -38,7 +38,7 @@ gsap.from(".textToFadeIn", { opacity: 0, delay: 4.4, duration: 1.3, stagger: 0.4
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.7, ease: "expo" });
-
+gsap.from(".arbetsprov", { duration: 1, delay: 1.8, opacity: 0, stagger: 0.4, ease: "expo" });
 gsap.from(".arbetsprov1", { duration: 1, delay: 2, opacity: 0, stagger: 0.4, ease: "expo" });
 gsap.from(".arbetsprov2", { duration: 1, delay: 2.2, opacity: 0, stagger: 0.4, ease: "expo" });
 gsap.from(".arbetsprov3", { duration: 1, delay: 2.4, opacity: 0, stagger: 0.4, ease: "expo" });
