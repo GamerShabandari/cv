@@ -30,6 +30,8 @@ gsap.from(".react", { opacity: 0, delay: 3.8, duration: 1.3, ease: "sine" });
 gsap.from(".typescript", { opacity: 0, delay: 4, duration: 1.3, ease: "sine" });
 gsap.from(".sass", { opacity: 0, delay: 4.2, duration: 1.3, ease: "sine" });
 gsap.from(".gsap", { opacity: 0, delay: 4.4, duration: 1.3, ease: "sine" });
+gsap.from(".node", { opacity: 0, delay: 4.6, duration: 1.3, ease: "sine" });
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
