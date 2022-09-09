@@ -206,6 +206,14 @@ h2{
         gap: 10%;
     }
 
+    .arbetsprov5Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+
     .toolsUsed{
         display: flex;
         flex-direction: row;
@@ -276,6 +284,20 @@ h2{
     }
 
     .arbetsprov4
+    {
+        width: 200px;
+        border-radius: 10px;
+        border: 1px solid black;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+
+    .arbetsprov5
     {
         width: 200px;
         border-radius: 10px;

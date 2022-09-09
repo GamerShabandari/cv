@@ -23,15 +23,18 @@ gsap.from("#languageBtn", { duration: 1.3, delay: 0.2, scale: 0, opacity: 0, eas
 gsap.from(".om-mig", { x: -1000, duration: 1.4, delay: 1.5, opacity: 0, ease: "expo" });
 
 gsap.from(".javascript", { opacity: 0, delay: 3, duration: 1.3, ease: "sine" });
-gsap.from(".html", { opacity: 0, delay: 3.2, duration: 1.3, ease: "sine" });
-gsap.from(".css", { opacity: 0, delay: 3.4, duration: 1.3, ease: "sine" });
-gsap.from(".angular", { opacity: 0, delay: 3.6, duration: 1.3, ease: "sine" });
-gsap.from(".react", { opacity: 0, delay: 3.8, duration: 1.3, ease: "sine" });
-gsap.from(".typescript", { opacity: 0, delay: 4, duration: 1.3, ease: "sine" });
-gsap.from(".sass", { opacity: 0, delay: 4.2, duration: 1.3, ease: "sine" });
-gsap.from(".gsap", { opacity: 0, delay: 4.4, duration: 1.3, ease: "sine" });
-gsap.from(".node", { opacity: 0, delay: 4.6, duration: 1.3, ease: "sine" });
-gsap.from(".mongoDb", { opacity: 0, delay: 4.8, duration: 1.3, ease: "sine" });
+gsap.from(".html", { opacity: 0, delay: 3.1, duration: 1.3, ease: "sine" });
+gsap.from(".css", { opacity: 0, delay: 3.2, duration: 1.3, ease: "sine" });
+gsap.from(".angular", { opacity: 0, delay: 3.3, duration: 1.3, ease: "sine" });
+gsap.from(".react", { opacity: 0, delay: 3.4, duration: 1.3, ease: "sine" });
+gsap.from(".typescript", { opacity: 0, delay: 3.5, duration: 1.3, ease: "sine" });
+gsap.from(".sass", { opacity: 0, delay: 3.6, duration: 1.3, ease: "sine" });
+gsap.from(".gsap", { opacity: 0, delay: 3.7, duration: 1.3, ease: "sine" });
+gsap.from(".node", { opacity: 0, delay: 3.8, duration: 1.3, ease: "sine" });
+gsap.from(".mongoDb", { opacity: 0, delay: 3.9, duration: 1.3, ease: "sine" });
+gsap.from(".socket", { opacity: 0, delay: 4, duration: 1.3, ease: "sine" });
+gsap.from(".lottie", { opacity: 0, delay: 4.1, duration: 1.3, ease: "sine" });
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -42,11 +45,12 @@ gsap.from(".textToFadeIn", { opacity: 0, delay: 4.4, duration: 1.3, stagger: 0.4
 
 gsap.from(".arbetsprover", { x: 1000, duration: 1.4, delay: 1.7, ease: "expo" });
 gsap.from(".arbetsprov", { duration: 1, delay: 1.8, opacity: 0, stagger: 0.4, ease: "expo" });
-gsap.from(".arbetsprov1", { duration: 1, delay: 2, opacity: 0, stagger: 0.4, ease: "expo" });
-gsap.from(".arbetsprov2", { duration: 1, delay: 2.2, opacity: 0, stagger: 0.4, ease: "expo" });
-gsap.from(".arbetsprov3", { duration: 1, delay: 2.4, opacity: 0, stagger: 0.4, ease: "expo" });
-gsap.from(".arbetsprov4", { duration: 1, delay: 2.8, opacity: 0, stagger: 0.4, ease: "expo" });
-gsap.from(".tools", { duration: 1.4, delay: 4.8, opacity: 0, stagger: 0.2, ease: "expo" });
+gsap.from(".arbetsprov1", { duration: 1, delay: 1.9, opacity: 0, stagger: 0.4, ease: "expo" });
+gsap.from(".arbetsprov2", { duration: 1, delay: 2, opacity: 0, stagger: 0.4, ease: "expo" });
+gsap.from(".arbetsprov3", { duration: 1, delay: 2.1, opacity: 0, stagger: 0.4, ease: "expo" });
+gsap.from(".arbetsprov4", { duration: 1, delay: 2.2, opacity: 0, stagger: 0.4, ease: "expo" });
+gsap.from(".arbetsprov5", { duration: 1, delay: 2.3, opacity: 0, stagger: 0.4, ease: "expo" });
+gsap.from(".tools", { duration: 1.3, delay: 4.4, opacity: 0, stagger: 0.2, ease: "expo" });
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
