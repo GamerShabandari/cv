@@ -172,6 +172,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .arbetsprov1Container{
@@ -180,6 +184,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .arbetsprov2Container{
@@ -188,6 +196,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .arbetsprov3Container{
@@ -196,6 +208,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .arbetsprov4Container{
@@ -204,6 +220,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .arbetsprov5Container{
@@ -212,6 +232,10 @@ h2{
         justify-content: center;
         align-items: center;
         gap: 10%;
+        background-color: rgba(245, 245, 245, 0.892);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(216, 112, 147, 0.2);
     }
 
     .toolsUsed{
@@ -225,89 +249,85 @@ h2{
 
     .arbetsprov
     {   
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
-        
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
     .arbetsprov1
     {   
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
-        
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
     .arbetsprov2
     {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
-     
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
-        &:hover{ 
-            transform: scale(1.2); 
+        &:hover{
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
     .arbetsprov3
     {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
-    
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
     .arbetsprov4
     {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
     .arbetsprov5
     {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
         width: 200px;
-        border-radius: 10px;
-        border: 1px solid black;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
 
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     }
 
