@@ -6,6 +6,8 @@ let kortOmMig = document.getElementById("kortOmMig");
 let yrken = document.getElementById("yrken");
 let akademi = document.getElementById("akademi");
 let arbetsproverRubrik = document.getElementById("arbetsproverRubrik");
+let minBild = document.querySelector(".min-bild");
+let h1 = document.querySelector(".h1");
 
 let setLanguageToEnglish = false;
 
@@ -66,6 +68,14 @@ gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoy
 // Up, Up, Down, Down, Left, Right, Left, Right, B, A
 
 let konamiCodeCheck = "";
+let count = 0;
+
+minBild.addEventListener("click", ()=>{
+  count ++
+  if (count == 10) {
+    h1.innerHTML = "Gamer <br> Over"
+  }
+});
 
 document.addEventListener("keyup", (evt) => {
   konamiCodeCheck += evt.key;
