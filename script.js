@@ -36,6 +36,7 @@ gsap.from(".node", { opacity: 0, delay: 3.8, duration: 1.3, ease: "sine" });
 gsap.from(".mongoDb", { opacity: 0, delay: 3.9, duration: 1.3, ease: "sine" });
 gsap.from(".socket", { opacity: 0, delay: 4, duration: 1.3, ease: "sine" });
 gsap.from(".lottie", { opacity: 0, delay: 4.1, duration: 1.3, ease: "sine" });
+gsap.from(".framer", { opacity: 0, delay: 4.2, duration: 1.3, ease: "sine" });
 
 
 
