@@ -37,6 +37,7 @@ gsap.from(".mongoDb", { opacity: 0, delay: 3.9, duration: 1.3, ease: "sine" });
 gsap.from(".socket", { opacity: 0, delay: 4, duration: 1.3, ease: "sine" });
 gsap.from(".lottie", { opacity: 0, delay: 4.1, duration: 1.3, ease: "sine" });
 gsap.from(".framer", { opacity: 0, delay: 4.2, duration: 1.3, ease: "sine" });
+gsap.from(".azure", { opacity: 0, delay: 4.4, duration: 1.3, ease: "sine" });
 
 
 
@@ -71,8 +72,8 @@ gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoy
 let konamiCodeCheck = "";
 let count = 0;
 
-minBild.addEventListener("click", ()=>{
-  count ++
+minBild.addEventListener("click", () => {
+  count++
   if (count == 10) {
     h1.innerHTML = "Gamer <br> Over"
   }
@@ -114,12 +115,11 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <h2>ABOUT ME</h2>
 
         <div class="textToFadeIn">
-          <p>I am a licenced gym instructor who has a degree in Medieteknik aswell as Frontend development. My
-          biggest interests are technology and design which is exactly what I get to work with as a frontend developer.
+          <p>Hi! My name is Gamer and I am a Frontend developer at Trippus Event Solutions in Uppsala Sweden. I'm also a licenced gym instructor with a degree in Medieteknik aswell as Frontend development. My
+          biggest interests are technology and design which is exactly what I get to work with as a developer.
           Other interests include training and football witch I have had the luxury of working with a lot over the course of my professional life.</p>
 
           <p>I have many years of experiance in sales, technical service and support. These are professions that require close work with people whom you must learn to understand in order to help solve their problems, whether they are technical in nature or health related.
-
         </p>
 
         <p>
@@ -134,7 +134,8 @@ languageBtn.addEventListener("click", function changeLanguage() {
 
         <div class="textToFadeIn">
           <ul>
-            <li> <strong>Friskis & Svettis Uppsala</strong> - <em>Gyminstructor</em> - 2017-202X</li>
+            <li> <strong>Trippus Event Solutions Uppsala</strong> - <em>Frontend Developer</em> - 2023-20XX</li>
+            <li> <strong>Friskis & Svettis Uppsala</strong> - <em>Gyminstructor</em> - 2017-2023</li>
             <li> <strong>Netonnet Uppsala</strong> - <em>Technical Service</em> - 2010-2017</li>
             <li> <strong>Securitas Stockholm</strong> - <em>Security Officer</em> - 2009-2010</li>
           </ul>
