@@ -115,8 +115,10 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <h2>ABOUT ME</h2>
 
         <div class="textToFadeIn">
-          <p>Hi! My name is Gamer and I am a Frontend developer at Trippus Event Solutions in Uppsala Sweden. I'm also a licenced gym instructor with a degree in Medieteknik aswell as Frontend development. My
-          biggest interests are technology and design which is exactly what I get to work with as a developer.
+          <p>Hi! My name is Gamer and I’m a passionate Frontend Developer at Trippus Event Solutions in Uppsala Sweden. I'm also a licenced gym instructor with degrees in Medieteknik aswell as in Frontend development.
+          <br>
+          I love building fun and lively animated UIs for users of all kinds to experience. 
+          <br>
           Other interests include training and football witch I have had the luxury of working with a lot over the course of my professional life.</p>
 
           <p>I have many years of experiance in sales, technical service and support. These are professions that require close work with people whom you must learn to understand in order to help solve their problems, whether they are technical in nature or health related.
