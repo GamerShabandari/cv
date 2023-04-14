@@ -8,7 +8,12 @@ let akademi = document.getElementById("akademi");
 let arbetsproverRubrik = document.getElementById("arbetsproverRubrik");
 let minBild = document.querySelector(".min-bild");
 let h1 = document.querySelector(".h1");
-
+let katanaSushi = document.getElementById("katanaSushi");
+let flixRus = document.getElementById("flixRus");
+let flixVille = document.getElementById("flixVille");
+let rPS = document.getElementById("rPS");
+let Blogosphere = document.getElementById("Blogosphere");
+let Braggy = document.getElementById("Braggy")
 let setLanguageToEnglish = false;
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -162,6 +167,49 @@ languageBtn.addEventListener("click", function changeLanguage() {
     arbetsproverRubrik.innerHTML = "PROJECTS"
 
 
+    katanaSushi.innerHTML = `
+
+    Katana Sushi - Complete site inc booking and admin, built using React & TypeScript.
+        <br>
+        Live site to the left and repo to the right
+    `
+
+    flixRus.innerHTML = `
+
+    FlixRus - Complete webshop inc order and admin, built using Angular & TypeScript.
+        <br>
+        Live site to the left and repo to the right
+    `
+
+    flixVille.innerHTML = `
+
+    Flixville - Simple movie site built using React, TypeScript & Framer Motion.
+        <br>
+        Live site to the left and repo to the right
+    `
+
+    rPS.innerHTML = `
+
+    Rock, Paper & Scissors - Simple game built using vanilla JavaScript & GSAP.
+    <br>
+    Live site to the left and repo to the right
+    `
+
+    Blogosphere.innerHTML = `
+
+    Blogosphere - Blog inc backend and admin, built using React, JavaScript, NodeJs &
+    LottieFiles.
+    <br>
+    Live site to the left and repo to the right
+    `
+
+    Braggy.innerHTML = `
+
+    Braggy - Thesis assignment inc backend and highscores, built using React, JavaScript, NodeJs, LottieFiles & Framer Motion.
+    <br>
+    Live site to the left and repo to the right
+    `
+
   } else {
 
     languageBtn.style.backgroundColor = "palevioletred"
@@ -216,6 +264,46 @@ languageBtn.addEventListener("click", function changeLanguage() {
         </div>
     `
     arbetsproverRubrik.innerHTML = "ARBETSPROVER"
+
+    katanaSushi.innerHTML = `
+
+    Katana Sushi - Komplett sida ink bokning och admin, byggd i React & TypeScript.
+    <br>
+    Live sida till vänster och repo till höger
+    `
+
+    flixRus.innerHTML = `
+
+    FlixRus - Komplett webshop ink köp och admin, byggd i Angular & TypeScript.
+    <br>
+    Live sida till vänster och repo till höger
+    `
+    flixVille.innerHTML = `
+
+    Flixville - Enkel filmsida byggd i React, TypeScript & Framer Motion.
+    <br>
+    Live sida till vänster och repo till höger
+    `
+    rPS.innerHTML = `
+
+    Rock, Paper & Scissors - Enkelt spel byggd i vanilla JavaScript & GSAP.
+    <br>
+    Live sida till vänster och repo till höger
+     `
+
+    Blogosphere.innerHTML = `
+
+    Blogosphere - Blogsida ink backend och admin, byggd i React, JavaScript, NodeJs &
+    LottieFiles.
+    <br>
+    Live sida till vänster och repo till höger
+    `
+    Braggy.innerHTML = `
+
+    Braggy - Examensarbete ink backend och highscores, byggd i React, JavaScript, NodeJs, LottieFiles & Framer Motion.
+    <br>
+    Live sida till vänster och repo till höger
+    `
 
   }
 });
