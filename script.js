@@ -6,7 +6,7 @@ let kortOmMig = document.getElementById("kortOmMig");
 let yrken = document.getElementById("yrken");
 let akademi = document.getElementById("akademi");
 let arbetsproverRubrik = document.getElementById("arbetsproverRubrik");
-let minBild = document.querySelector(".min-bild");
+let profilBorder = document.querySelector(".profilBorder");
 let h1 = document.querySelector(".h1");
 let katanaSushi = document.getElementById("katanaSushi");
 let flixRus = document.getElementById("flixRus");
@@ -18,7 +18,7 @@ let setLanguageToEnglish = false;
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-gsap.from(".min-bild", { duration: 1.3, delay: 0.6, opacity: 0, scale: 0, ease: "expo" });
+gsap.from(".profilBorder", { duration: 1.3, delay: 0.6, opacity: 0, scale: 0, ease: "expo" });
 gsap.from(".h1", { duration: 1.4, delay: 1.2, opacity: 0, scale: 0, ease: "expo" });
 gsap.from(".footer", { duration: 1.3, delay: 1, opacity: 0, ease: "expo" });
 gsap.from("#languageBtn", { duration: 1.3, delay: 0.2, scale: 0, opacity: 0, ease: "expo" });
@@ -77,7 +77,7 @@ gsap.from(".github", { y: -10, duration: 1.3, delay: 2.2, ease: "power2.in", yoy
 let konamiCodeCheck = "";
 let count = 0;
 
-minBild.addEventListener("click", () => {
+profilBorder.addEventListener("click", () => {
   count++
   if (count == 10) {
     h1.innerHTML = "Gamer <br> Over"
