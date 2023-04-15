@@ -147,12 +147,12 @@ h2 {
     padding: 10px;
 
     .decorationLine {
-        width: 100%;
+        width: 60%;
         height: 1px;
         background: rgb(216, 112, 147);
-        background: -moz-radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgba(0, 0, 0, 1) 100%);
-        background: -webkit-radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgba(0, 0, 0, 1) 100%);
-        background: radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgba(0, 0, 0, 1) 100%);
+        background: -moz-radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  #d0ab30 100%);
+        background: -webkit-radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  rgb(208, 171, 48) 100%);
+        background: radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  rgb(208, 171, 48) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d87093", endColorstr="#000000", GradientType=1);
         margin: 0px;
     }
@@ -226,19 +226,19 @@ footer {
 
 .email {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 50px;
 }
 
 .linkedin {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 10px;
 }
 
 .github {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 50px;
 }
 
@@ -259,7 +259,7 @@ footer {
     --background: linear-gradient(to left, rgb(208, 171, 48) 0%, palevioletred 100%);
     width: fit-content;
     height: fit-content;
-    padding: 5px;
+    padding: 4px;
     border-radius: 1rem;
     overflow: visible;
     background: #f7ba2b;
@@ -297,7 +297,7 @@ footer {
     height: 100%;
     overflow: visible;
     border-radius: .7rem;
-    border: 5px solid black;
+    border: 8px solid black;
 }
 
 .projectInfo {

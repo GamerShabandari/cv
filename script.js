@@ -111,8 +111,8 @@ languageBtn.addEventListener("click", function changeLanguage() {
 
   if (setLanguageToEnglish == true) {
 
-    languageBtn.style.backgroundColor = "whitesmoke"
-    languageBtn.style.color = "palevioletred"
+    languageBtn.style.backgroundColor = "#d0ab30"
+    languageBtn.style.color = "black"
 
 
     kortOmMig.innerHTML = `<img src="img/me.png" alt="icon about me" width="60" aria-hidden="true">

@@ -162,7 +162,7 @@ h2 {
     padding: 0;
 
     .decorationLine {
-        width: 100%;
+        width: 60%;
         height: 1px;
         background-color: palevioletred;
         margin: 10px;
@@ -286,13 +286,12 @@ footer {
 
 .email {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 50px;
     transition: scale;
     transition-duration: 0.3s;
 
     &:hover {
-        border: 2px solid whitesmoke;
         border-radius: 50px;
         transform: scale(1.4);
         scale: 1.2;
@@ -301,13 +300,12 @@ footer {
 
 .linkedin {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 10px;
     transition: scale;
     transition-duration: 0.3s;
 
     &:hover {
-        border: 2px solid whitesmoke;
         border-radius: 10px;
         transform: scale(1.4);
         scale: 1.2;
@@ -316,13 +314,12 @@ footer {
 
 .github {
     margin: 10px;
-    border: 2px solid palevioletred;
+    border: 1px solid whitesmoke;
     border-radius: 50px;
     transition: scale;
     transition-duration: 0.3s;
 
     &:hover {
-        border: 2px solid whitesmoke;
         border-radius: 50px;
         transform: scale(1.4);
         scale: 1.2;
@@ -346,7 +343,7 @@ footer {
     --background: linear-gradient(to left, rgb(208, 171, 48) 0%, palevioletred 100%);
     width: fit-content;
     height: fit-content;
-    padding: 5px;
+    padding: 4px;
     border-radius: 1rem;
     overflow: visible;
     background: #f7ba2b;
@@ -384,7 +381,7 @@ footer {
     height: 100%;
     overflow: visible;
     border-radius: .7rem;
-    border: 10px solid black;
+    border: 8px solid black;
 }
 
 .projectInfo{
