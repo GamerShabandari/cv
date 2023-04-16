@@ -75,7 +75,7 @@ main {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     overflow-x: hidden;
-
+    gap: 60px;
 }
 
 h2 {
@@ -90,13 +90,19 @@ h2 {
 }
 
 .om-mig {
-
+    
     text-align: center;
     line-height: 2.8;
     font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 
     article {
         padding: 5px;
+        line-height: 50px;
     }
 
     .skills {
@@ -135,24 +141,24 @@ h2 {
 ////////////////////////////////////////////////////////////////////////////////////////
 
 .arbetsprover {
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    gap: 30px;
+    gap: 50px;
     margin-top: 30px;
     width: auto;
-    padding: 10px;
+    padding: 0px;
 
     .decorationLine {
-        width: 60%;
+        width: 80%;
         height: 1px;
         background: rgb(216, 112, 147);
-        background: -moz-radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  #d0ab30 100%);
-        background: -webkit-radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  rgb(208, 171, 48) 100%);
-        background: radial-gradient(circle, rgba(216, 112, 147, 1) 8%,  rgb(208, 171, 48) 100%);
+        background: -moz-radial-gradient(circle, rgba(216, 112, 147, 1) 8%, #d0ab30 100%);
+        background: -webkit-radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgb(208, 171, 48) 100%);
+        background: radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgb(208, 171, 48) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d87093", endColorstr="#000000", GradientType=1);
         margin: 0px;
     }
