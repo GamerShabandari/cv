@@ -147,7 +147,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    gap: 50px;
+    gap: 0px;
     margin-top: 30px;
     width: auto;
     padding: 0px;
@@ -160,7 +160,7 @@ h2 {
         background: -webkit-radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgb(208, 171, 48) 100%);
         background: radial-gradient(circle, rgba(216, 112, 147, 1) 8%, rgb(208, 171, 48) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d87093", endColorstr="#000000", GradientType=1);
-        margin: 0px;
+        margin: 30px;
     }
 
     .toolsUsed {
@@ -170,6 +170,7 @@ h2 {
         justify-content: center;
         gap: 20px;
         width: fit-content;
+        margin: 30px;
     }
 
     .arbetsprov {
