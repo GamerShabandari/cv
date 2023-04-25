@@ -10,10 +10,8 @@ let profilBorder = document.querySelector(".profilBorder");
 let h1 = document.querySelector(".h1");
 let katanaSushi = document.getElementById("katanaSushi");
 let flixRus = document.getElementById("flixRus");
-let flixVille = document.getElementById("flixVille");
-let rPS = document.getElementById("rPS");
-let Blogosphere = document.getElementById("Blogosphere");
-let Braggy = document.getElementById("Braggy")
+let Dashboard = document.getElementById("Dashboard");
+let braggy = document.getElementById("braggy")
 let setLanguageToEnglish = false;
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -125,14 +123,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
           I love building fun and lively animated UIs for users of all kinds to experience. 
           <br>
           Other interests include training and football witch I have had the luxury of working with a lot over the course of my professional life.</p>
-
-          <p>I have many years of experiance in sales, technical service and support. These are professions that require close work with people whom you must learn to understand in order to help solve their problems, whether they are technical in nature or health related.
-        </p>
-
-        <p>
-        I am a happy and pragmatic person who likes a challenge and to constantly keep learning in life. I speak Swedish, English and Armenian fluently.
-        </p>
-      </article>`
+      </div>`
 
     yrken.innerHTML = `
       
@@ -181,29 +172,12 @@ languageBtn.addEventListener("click", function changeLanguage() {
         Live site to the left and repo to the right
     `
 
-    flixVille.innerHTML = `
+    Dashboard.innerHTML = `
 
-    Flixville - Simple movie site built using React, TypeScript & Framer Motion.
-        <br>
-        Live site to the left and repo to the right
+    Dashboard - Had the opportunity and responsibility to build this from the ground up by myself for Livsmedelsverket during my internship in the spring of 2023. Built using React & Framer Motion. This replaced their previous system that was built using Blazor. <br> View a live version of the system with dummy data, repo is private due to security reasons
     `
 
-    rPS.innerHTML = `
-
-    Rock, Paper & Scissors - Simple game built using vanilla JavaScript & GSAP.
-    <br>
-    Live site to the left and repo to the right
-    `
-
-    Blogosphere.innerHTML = `
-
-    Blogosphere - Blog inc backend and admin, built using React, JavaScript, NodeJs &
-    LottieFiles.
-    <br>
-    Live site to the left and repo to the right
-    `
-
-    Braggy.innerHTML = `
+    braggy.innerHTML = `
 
     Braggy - Thesis assignment inc backend and highscores, built using React, JavaScript, NodeJs, LottieFiles & Framer Motion.
     <br>
@@ -220,19 +194,17 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <h2>KORT OM MIG</h2>
 
         <div class="textToFadeIn">
-          <p>Jag är en licensierad gyminstruktör som även är utbildad inom Medieteknik samt Frontend-utveckling. Mina
-            stora intressen är teknik och design vilket jag får jobba med som frontend utvecklare, mina andra stora
-            intressen är
-            fotboll och träning vilket jag också har haft lyxen att jobba mycket med.</p>
-
-          <p>Jag har lång erfarenhet utav sälj, teknisk service och support. Yrken där man jobbar med människor och ska
-            förstå samt hjälpa kunden att lösa sina problem vare sig det gäller tekniska produkter eller deras hälsa.
-          </p>
-
-          <p>Som person är jag glad och lösningsorienterad, jag gillar utmaningar och att ständigt lära mig nya saker.
-            Talar svenska, engelska och armeniska flytande.</p>
+        <p>
+        Hej! mitt namn är Gamer och jag är en passionerad Frontend utvecklare som jobbar på Trippus Event Solutions
+        i Uppsala.
+        Jag är dessutom en licensierad gyminstruktör med examen inom Medieteknik samt Frontend-utveckling.
+        <br>
+        Jag älskar att bygga roliga och livligt animerade gränssnitt för användare av alla slag att uppleva.
+        <br>
+        Mina andra stora intressen är fotboll och träning vilket jag också har haft lyxen att jobba mycket med.
+      </p>
         </div>
-      </article>`
+      `
 
 
     yrken.innerHTML = `
@@ -278,27 +250,12 @@ languageBtn.addEventListener("click", function changeLanguage() {
     <br>
     Live sida till vänster och repo till höger
     `
-    flixVille.innerHTML = `
+    Dashboard.innerHTML = `
 
-    Flixville - Enkel filmsida byggd i React, TypeScript & Framer Motion.
-    <br>
-    Live sida till vänster och repo till höger
+    Dashboard - Fick chansen samt ansvaret att bygga detta från grunden åt Livsmedelsverket under min LIA hos dem våren 2023. Byggd i React & Framer Motion. Detta ersatte deras tidigare system som var byggt i Blazor. <br> Se live version av systemet med dummy data, repo är privat pga säkerhetsskäl
     `
-    rPS.innerHTML = `
-
-    Rock, Paper & Scissors - Enkelt spel byggd i vanilla JavaScript & GSAP.
-    <br>
-    Live sida till vänster och repo till höger
-     `
-
-    Blogosphere.innerHTML = `
-
-    Blogosphere - Blogsida ink backend och admin, byggd i React, JavaScript, NodeJs &
-    LottieFiles.
-    <br>
-    Live sida till vänster och repo till höger
-    `
-    Braggy.innerHTML = `
+    
+    braggy.innerHTML = `
 
     Braggy - Examensarbete ink backend och highscores, byggd i React, JavaScript, NodeJs, LottieFiles & Framer Motion.
     <br>
