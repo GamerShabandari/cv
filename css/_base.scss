@@ -283,12 +283,13 @@ footer {
 }
 
 .card-info {
-    --color: #181818;
+    --color: #000000;
     background: var(--color);
     color: var(--color);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     width: 100%;
     height: 100%;
     overflow: visible;
