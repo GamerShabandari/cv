@@ -174,7 +174,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
 
     Dashboard.innerHTML = `
 
-    Dashboard - Had the opportunity and responsibility to build this from the ground up by myself for Livsmedelsverket during my internship in the spring of 2023. Built using React & Framer Motion. This replaced their previous system that was built using Blazor. <br> View a live version of the system with dummy data, repo is private due to security reasons
+    Dashboard - Had the opportunity and responsibility to build this from the ground up by myself for Livsmedelsverket during my internship in the spring of 2023. Built using React & Framer Motion. This replaced their previous system that was built using Blazor. <br> View a live version of the system with dummy data to the left, repo to the right
     `
 
     braggy.innerHTML = `
@@ -252,7 +252,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
     `
     Dashboard.innerHTML = `
 
-    Dashboard - Fick chansen samt ansvaret att bygga detta från grunden åt Livsmedelsverket under min LIA hos dem våren 2023. Byggd i React & Framer Motion. Detta ersatte deras tidigare system som var byggt i Blazor. <br> Se live version av systemet med dummy data, repo är privat pga säkerhetsskäl
+    Dashboard - Fick chansen samt ansvaret att bygga detta från grunden åt Livsmedelsverket under min LIA hos dem våren 2023. Byggd i React & Framer Motion. Detta ersatte deras tidigare system som var byggt i Blazor. <br> Live sida med dummy data till vänster och repo till höger
     `
     
     braggy.innerHTML = `
