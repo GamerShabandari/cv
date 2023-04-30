@@ -138,20 +138,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <li><img src="img/netonnet.jpeg" alt="logo Netonnet" width="20" aria-hidden="true"> <strong>Netonnet</strong> - <em>Technical Service</em> - 2010-2017</li>
         <li><img src="img/securitas.jpeg" alt="logo Securitas" width="20" aria-hidden="true"> <strong>Securitas</strong> - <em>Security Officer</em> - 2009-2010</li>
       </ul>
-    </div>
-      
-      <img src="img/jobs.png" alt="icon jobs" width="60" aria-hidden="true">
-        <h2>WORK EXPERIENCE</h2>
-
-        <div class="textToFadeIn">
-          <ul>
-            <li> <strong>Trippus Event Solutions Uppsala</strong> - <em>Frontend Developer</em> - 2023-20XX</li>
-            <li> <strong>Friskis & Svettis Uppsala</strong> - <em>Gyminstructor</em> - 2017-2023</li>
-            <li> <strong>Netonnet Uppsala</strong> - <em>Technical Service</em> - 2010-2017</li>
-            <li> <strong>Securitas Stockholm</strong> - <em>Security Officer</em> - 2009-2010</li>
-          </ul>
-        </div>
-      
+    </div> 
       `
 
     akademi.innerHTML = `
