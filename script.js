@@ -149,7 +149,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <div class="textToFadeIn">
           <ul>
             <li> <strong>Frontend developer</strong> - <em>Medieinstitutet</em> - 2021-2023</li>
-            <li> <strong>Bachelors degree in Medieteknik</strong> - <em>Södertörns högskola</em> - 2006-2010</li>
+            <li> <strong>Bachelors in Medieteknik</strong> - <em>Södertörns högskola</em> - 2006-2010</li>
             <li> <strong>Specialutformat Datorprogram</strong> - <em>Bolandsskolan Uppsala</em> - 2000-2003</li>
           </ul>
         </div>
