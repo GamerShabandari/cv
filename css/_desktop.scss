@@ -54,15 +54,16 @@ header {
 h1 {
 
     position: absolute;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: $rubrik;
     font-family: 'Ubuntu', sans-serif;
     z-index: 98;
-    bottom: -10px;
+    bottom: -40px;
     margin: 0%;
     letter-spacing: 5px;
     opacity: 0.9;
-   
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .min-bild {
@@ -144,14 +145,19 @@ h2 {
             list-style: none;
             text-align: center;
             line-height: 2.5;
-        
 
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 5px;
+
         }
+    }
+
+    .yrken li {
+       
+        margin: 15px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
     }
 }
 
