@@ -133,9 +133,9 @@ languageBtn.addEventListener("click", function changeLanguage() {
     <div class="textToFadeIn">
       <ul class="yrken">
         <li><img src="img/trippus.jpeg" alt="logo Trippus" width="20" aria-hidden="true"> <strong>Trippus</strong> - <em>Frontend dev</em> - 2023-20XX</li>
-        <li><img src="img/livsmedelsverket.jpeg" alt="logo Livsmedelsverket" width="20" aria-hidden="true"> <strong>SLV</strong> - <em>Frontend dev</em> - LIA</li>
+        <li><img src="img/livsmedelsverket.jpeg" alt="logo Livsmedelsverket" width="20" aria-hidden="true"> <strong>SLV</strong> - <em>Frontend dev</em> - LIA 2023</li>
         <li><img src="img/friskis.jpeg" alt="logo Friskis" width="20" aria-hidden="true"> <strong>Friskis</strong> - <em>Gyminstructor</em> - 2017-2023</li>
-        <li><img src="img/netonnet.jpeg" alt="logo Netonnet" width="20" aria-hidden="true"> <strong>Netonnet</strong> - <em>Technical Service</em> - 2010-2017</li>
+        <li><img src="img/netonnet.jpeg" alt="logo Netonnet" width="20" aria-hidden="true"> <strong>Netonnet</strong> - <em>Teknisk Service</em> - 2010-2017</li>
         <li><img src="img/securitas.jpeg" alt="logo Securitas" width="20" aria-hidden="true"> <strong>Securitas</strong> - <em>Security Officer</em> - 2009-2010</li>
       </ul>
     </div> 
@@ -144,13 +144,13 @@ languageBtn.addEventListener("click", function changeLanguage() {
     akademi.innerHTML = `
 
     <img src="img/school.png" alt="academic background" width="60" aria-hidden="true">
-        <h2>ACADEMIC BACKGROUND</h2>
+        <h2>ACADEMICS</h2>
 
         <div class="textToFadeIn">
           <ul>
             <li> <strong>Frontend developer</strong> - <em>Medieinstitutet</em> - 2021-2023</li>
             <li> <strong>Bachelors in Medieteknik</strong> - <em>Södertörns högskola</em> - 2006-2010</li>
-            <li> <strong>Specialutformat Datorprogram</strong> - <em>Bolandsskolan Uppsala</em> - 2000-2003</li>
+            <li> <strong>Datorprogram</strong> - <em>Bolandsskolan Uppsala</em> - 2000-2003</li>
           </ul>
         </div>
     `
@@ -215,7 +215,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
     <div class="textToFadeIn">
       <ul class="yrken">
         <li><img src="img/trippus.jpeg" alt="logga Trippus" width="20" aria-hidden="true"> <strong>Trippus</strong> - <em>Frontend utv</em> - 2023-20XX</li>
-        <li><img src="img/livsmedelsverket.jpeg" alt="logga Livsmedelsverket" width="20" aria-hidden="true"> <strong>SLV</strong> - <em>Frontend utv</em> - LIA</li>
+        <li><img src="img/livsmedelsverket.jpeg" alt="logga Livsmedelsverket" width="20" aria-hidden="true"> <strong>SLV</strong> - <em>Frontend utv</em> - LIA 2023</li>
         <li><img src="img/friskis.jpeg" alt="logga Friskis" width="20" aria-hidden="true"> <strong>Friskis</strong> - <em>Gyminstruktör</em> - 2017-2023</li>
         <li><img src="img/netonnet.jpeg" alt="logga Netonnet" width="20" aria-hidden="true"> <strong>Netonnet</strong> - <em>Teknisk Service</em> - 2010-2017</li>
         <li><img src="img/securitas.jpeg" alt="logga Securitas" width="20" aria-hidden="true"> <strong>Securitas</strong> - <em>Väktare</em> - 2009-2010</li>
@@ -232,8 +232,8 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <div class="textToFadeIn">
           <ul>
             <li> <strong>Frontend-utvecklare</strong> - <em>Medieinstitutet</em> - 2021-2023</li>
-            <li> <strong>Filosofie kandidat Medieteknik</strong> - <em>Södertörns högskola</em> - 2006-2010</li>
-            <li> <strong>Specialutformat Datorprogram</strong> - <em>Bolandsskolan Uppsala</em> - 2000-2003</li>
+            <li> <strong>Fil.kand Medieteknik</strong> - <em>Södertörns högskola</em> - 2006-2010</li>
+            <li> <strong>Datorprogram</strong> - <em>Bolandsskolan Uppsala</em> - 2000-2003</li>
           </ul>
         </div>
     `
