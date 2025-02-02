@@ -118,7 +118,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
         <h2>ABOUT ME</h2>
 
         <div class="textToFadeIn">
-          <p>Hi! My name is Gamer and I’m a passionate Frontend Developer at Trippus Event Solutions in Uppsala Sweden. I'm also a licenced gym instructor with degrees in Medieteknik aswell as in Frontend development.
+          <p>Hi! My name is Gamer and I’m a passionate Frontend Developer at the Swedish Food Agency  in Uppsala Sweden. I'm also a licenced gym instructor with degrees in Medieteknik aswell as in Frontend development.
           <br>
           I love building fun and lively animated UIs for users of all kinds to experience. 
           <br>
@@ -195,7 +195,7 @@ languageBtn.addEventListener("click", function changeLanguage() {
 
         <div class="textToFadeIn">
         <p>
-        Hej! mitt namn är Gamer och jag är en passionerad Frontend utvecklare som jobbar på Trippus Event Solutions
+        Hej! mitt namn är Gamer och jag är en passionerad Frontend utvecklare som jobbar på Livsmedelsverket
         i Uppsala.
         Jag är dessutom en licensierad gyminstruktör med examen inom Medieteknik samt Frontend-utveckling.
         <br>
